@@ -1,7 +1,7 @@
 # GIT 
+__Author: alpha74__
 
-
-## BASIC
+## BASICS
 
 ### COMPONENTS OF GIT.
 1. *Working tree:*
