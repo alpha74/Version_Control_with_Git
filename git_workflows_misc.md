@@ -1,17 +1,18 @@
-# GIT 
+## Git Workflows and Other
 __Author: alpha74__
 
+----------
 
-## GIT WORKFLOWS:
+## Git Workflows Types:
 	
-#### Centralized Workflow:
+#### 1. Centralized Workflow:
 - Uses a single branch.
 - Team members have local copies of project.
 
 - *Cons*:
 	- Features related to branching and PRs are not used.
 
-#### Feature Branch Workflow:
+#### 2. Feature Branch Workflow:
 - Work is done on feature/topic branches.
 - feature branch is merged in base branch.
 - Uses a single remote repo.
@@ -19,7 +20,7 @@ __Author: alpha74__
 - *Pros*:
 	- Uses branching and PRs.
 		
-#### Forking Workflow:
+#### 3. Forking Workflow:
 - Involves multiple remote repos.
 - One of the remote repo is considered `upstream` from all, and is considered __source of truth__ .
 - Work is transfered from `remote` repo to `upstream` repo using PR.
@@ -32,7 +33,7 @@ __Author: alpha74__
 	- Forked repo can become un-sync with `upstream`. 
 
 
-#### Gitflow Workflow:
+#### 4. Gitflow Workflow:
 - Allows safe continues releases of project.
 - Involves two or more long running branches like: `release`, `master`, `develop`.
 - And short duration branches like: `featureX`, `topicA`, `hotfix-1`.
@@ -43,7 +44,7 @@ __Author: alpha74__
 	- `develop` branch then adds a merge commit from `release` branch, if committed to `master`.
 
 
-### LIST OF PLUMBING COMMANDS IN GIT:
+### Plumbing commands in Git:
 - `cat file`
 - `check-ignore`
 - `commit-tree`
@@ -63,7 +64,7 @@ __Author: alpha74__
 - `verify-pack`
 - `write-tree`
 
-### LEFT:	
+### Others:	
 - `git diff` : See the difference of changes made to the directory(shows only when commits are not made after changes).
 - `git diff <filename>` : Same for specific file.
 - `git diff -staged` : See all difference of changes made to the directory, after staging is done.2
