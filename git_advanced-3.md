@@ -1,9 +1,9 @@
-# GIT
+## Git Advanced III
 __Author: alpha74__
 
-## ADVANCED-III
+------------
 
-### FORKING:
+### Forking:
 - It is a feature of Git hosting website.
 - It means : Copying a remote repo to our own online account.
 - Both are remote repo.
@@ -11,7 +11,7 @@ __Author: alpha74__
 - Can be used to create a new __source of truth__ .
 	
 	
-### PULL REQUESTS:
+### Pull Requests:
 - It is a feature of Git hosting sites.
 - Goal is to merge a branch into project.
 - Enable team communication.
