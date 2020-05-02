@@ -1,9 +1,9 @@
-### Git Basics
+## Git Basics
 __Author: alpha74__
 
+------------------
 
-
-### COMPONENTS OF GIT.
+### Components of Git:
 1. *Working tree:*
 	- All the physical files present in the project.
 		
@@ -59,13 +59,13 @@ __Author: alpha74__
 - `#` : Used for comments.
 
 
-### ADD FILES TO STAGING AREA:
+### Add files to Staging Area:
 - `git add .` : Add all the changes in current dir to staging area.
 - `git add --a` : Same as aboves
 - `git add <file>` : Makes changes made to that file ready for commiting.
 
 
-### CREATING AND REMOVING FILES:
+### Creating and Removing Files:
 - `touch <filename>` : Creates new file.
 - `echo "<text>" >> <filename> ` : Store text in filename.
 - `git rm <filename>` : Removes file(can only do after staging and commiting).
@@ -100,7 +100,7 @@ __Author: alpha74__
 		- Here, `<branch>` set up to track remote `<branch>` from origin.
 
 
-### GIT LOG & SHOW:
+### LOG & SHOW:
 - `git log` : See all the commits.
 - `git log --oneline` : Condensed version of log.
 - `git log --online -2` : Will return only last two logs.
