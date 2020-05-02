@@ -1,16 +1,16 @@
-# GIT 
+## Git Advanced I
 __Author: alpha74__
 
-## ADVANCED-I
+------------
 
-### HASH GENERATION:
+### Hash Generation:
 - `git hash-object <file>`: 
  - Create a SHA-1 hash for any file. 
  - Returns a 40char log string of hash.
  - Same file returns same hash, and vice versa.
 
 
-### GIT REFERENCES ~ and ^ :
+### References ~ and ^ :
 - Git references are short names for SHA-1 hashes.
 - `git show HEAD` 
 	- Shows commit pointed by HEAD(generally the last commit on the branch). 
@@ -30,7 +30,7 @@ __Author: alpha74__
 	- `^2^` : Refers to second parent's first parent.
 
 
-### GIT TAGS:
+### TAGS:
 - Tags can be used instead of branch labels or Git IDs in git commands.
 - Tags are simple text messages associated with labels, and they are NOT git objects. `Annotated tags` are.
 - `git tag` : Shows all tags in repo.
@@ -66,7 +66,7 @@ __Author: alpha74__
 	- `git push <remote> --tags` : Pushes all tags to remote.
 
 
-## GIT BRANCHES & REFLOG:
+## BRANCHES & REFLOG:
 - `git branch` : List all the branches in local repo. Current branch has asterisk on it.
 - `git branch <newbranch>` : Creates a new branch from HEAD of current branch. Current branch is still the same.
 - `git checkout <branch_or_commit>` : 
@@ -89,7 +89,7 @@ __Author: alpha74__
 	- `git checkout -b <newbranch> <SHA-1>` : Creates a branch from reflogged dangling commit.
 
 
-### GIT MERGE:
+### MERGE:
 - Merges a topic branch in a base branch.
 
 - *Types of merge:*
