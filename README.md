@@ -26,7 +26,7 @@
   - Rewriting History
   - Squash Merge
   
-- [Git Advanced3]https://github.com/alpha74/VCG/blob/master/git_advanced-3.md)
+- [Git Advanced3](https://github.com/alpha74/VCG/blob/master/git_advanced-3.md)
   - Forking
   - Pull Requests
   - Single repo and Multi repo PR
