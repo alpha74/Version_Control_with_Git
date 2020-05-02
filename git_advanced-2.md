@@ -1,9 +1,9 @@
-# GIT 
+## Git Advanced II
 __Author: alpha74__
 
-## ADVANCED-II
+----------
 
-### MERGE CONFLICTS:
+### Merge Conflicts:
 - Occurs when multiple branches change same: part of a file(a hunk).
 - Merge is also successful if different hunks of files are changed.
 - A modular code has less merge conflicts.
@@ -23,7 +23,7 @@ __Author: alpha74__
 	- Lines not enclosed by arrow symbols are cleanly resolved by Git.
 
 
-### TRACKING BRANCHES:
+### Tracking Branches:
 - Its name starts with the remote name then a / and then branch name.
 - Eg: `origin/master`.
 - It is pointed to latest commit after clone from remote.
@@ -39,7 +39,7 @@ __Author: alpha74__
 - `git log --all` : Lists combined log of all local and tracking branches.
 	
 
-### NETWORK COMMANDS:
+### Network Commands:
 - Network commands interact with remote repo.
 - List:
 	- *Clone* : Copies a remote repo.
@@ -122,7 +122,7 @@ __Author: alpha74__
 - `git am --show-current-patch` : View failed patch in merge conflict.
 
 
-### REBASE: MERGE CONFLICTS:
+### REBASE: Merge Conflicts:
 - Files with merge conflicts are modified by Git.
 - Resolve the conflicts manually.
 - Use `git status --all` to view conflicts.
@@ -134,7 +134,7 @@ __Author: alpha74__
 	- `git rebase --continue` : Continue after merge conflict resolve.
 		
 
-### REWRITING HISTORY:
+### Rewriting History:
 - *Ammeding Recent Commit*:
 	- Can change commit message.
 	- Change project files.
@@ -167,7 +167,7 @@ __Author: alpha74__
 		- Execute shell commands 
 
 
-### SQUASH MERGE:
+### Squash Merge:
 - Rewrites commit history.
 
 - Merges tip of `topic` branch onto tip of `base` branch.
