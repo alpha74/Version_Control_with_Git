@@ -1,7 +1,7 @@
-# GIT 
+### Git Basics
 __Author: alpha74__
 
-## BASICS
+
 
 ### COMPONENTS OF GIT.
 1. *Working tree:*
@@ -13,6 +13,7 @@ __Author: alpha74__
 3. *Local Repository:* 
 	- Contains all the commits. 
 	- A commit is snapshot of the project.
+	- Git uses Directed Acyclic Graph for storing commit history.
 		
 4. *Remote Repository:* 
 	- Remotely located repository. 
