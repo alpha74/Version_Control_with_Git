@@ -73,7 +73,7 @@ __Author: alpha74__
 
 ### STATUS:
 - `git status` : Displays changes made to files in that directory which are/not yet commited.
-- `git status -s` : Displays short online status of each file in staging area.
+- `git status -s` : Displays short oneline status of each file in staging area.
 
 
 ### COMMIT :
@@ -103,10 +103,10 @@ __Author: alpha74__
 ### LOG & SHOW:
 - `git log` : See all the commits.
 - `git log --oneline` : Condensed version of log.
-- `git log --online -2` : Will return only last two logs.
+- `git log --oneline -2` : Will return only last two logs.
 - `git log --author="<user.name>" ` : Lists all the commits done by a specific user.
 
 - `git log <git id> -1` : See one liner log associated with given commit hash. `git id` is 4 or more chars of hash value of commit.
 - `git show <git id> ` : Shows detailed changes associated with this commit along with author and differences.
 
-- *Graphs:* `git log --online --graph` : Graphical view of commits on local branch with comparison.
+- *Graphs:* `git log --oneline --graph` : Graphical view of commits on local branch with comparison.
