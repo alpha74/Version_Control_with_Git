@@ -1,4 +1,6 @@
-# Version Control with Git
+![Git](https://git-scm.com/images/logo@2x.png)
+
+# Version Control with Git : Git Guide
 ### Commands and Usage
 
 
